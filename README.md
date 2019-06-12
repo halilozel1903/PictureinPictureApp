@@ -14,12 +14,22 @@ Applications that support PiP playback present a small button in the lower-right
 
 ## Application Demo
 
-![Screenshot](pic1.jpg)
+![Screenshot](pic1.png)
 
-![Screenshot](pic2.jpg)
+![Screenshot](pic2.png)
 
-![Screenshot](pic3.jpg)
+![Screenshot](pic3.png)
 
-![Screenshot](pic4.jpg)
+![Screenshot](pic4.png)
 
-![Screenshot](pic5.jpg)
+![Screenshot](pic5.png)
+
+
+## Resources
+
+https://www.youtube.com/watch?v=PNCtRRusgDA <br>
+
+https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/MediaPlaybackGuide/Contents/Resources/en.lproj/UsingAVKitPlatformFeatures/UsingAVKitPlatformFeatures.html#//apple_ref/doc/uid/TP40016757-CH5-SW3 <br>
+
+https://developer.apple.com/documentation/avkit/adopting_picture_in_picture_in_a_custom_player
+
