@@ -1,7 +1,7 @@
 # Picture in Picture App
 Adopting Picture in Picture (PiP) in a Custom Player - Swift Language
 
-![Screenshot](kotlin.jpeg)
+![Screenshot](ipad.jpeg)
 
 
 ## Working with Picture in Picture (iOS)
