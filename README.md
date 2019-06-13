@@ -14,7 +14,7 @@ Applications that support PiP playback present a small button in the lower-right
 
 ## Application Demo
 
-![Screenshot](pic1.png)
+![Screenshot](picture1.png)
 
 ![Screenshot](pic2.png)
 
