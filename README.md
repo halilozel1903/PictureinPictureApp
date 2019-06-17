@@ -24,6 +24,11 @@ Applications that support PiP playback present a small button in the lower-right
 
 ![Screenshot](pic5.png)
 
+<br> <br>
+
+## Blog Post
+
+- [How to use Picture in Picture (PiP) in Swift](https://medium.com/@halilozel1903/how-to-use-picture-in-picture-pip-in-swift-585a59f6cc8c)
 
 ## Resources
 
