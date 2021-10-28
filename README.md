@@ -1,10 +1,10 @@
-# Picture in Picture App
+# Picture in Picture App 📸
 Adopting Picture in Picture (PiP) in a Custom Player - Swift Language
 
 ![Screenshot](ipad.jpg)
 
 
-## Working with Picture in Picture (iOS)
+## Working with Picture in Picture (iOS) 👨🏻‍💻
 
 Picture in Picture (PiP) playback was introduced in iOS 9. It lets iPad users play video in a moveable, resizable window that floats over the apps onscreen. It brings a new level of multitasking capabilities to the iPad, enabling users to continue playback while performing other activities on their devices. This feature is found in Apple’s built-in video playback apps, and is available to your apps through the AVKit framework. <br>
 
@@ -12,7 +12,7 @@ Applications that support PiP playback present a small button in the lower-right
 
 
 
-## Application Demo
+## Application Demo 📱
 
 ![Screenshot](picture1.png)
 
@@ -30,7 +30,7 @@ Applications that support PiP playback present a small button in the lower-right
 
 - [How to use Picture in Picture (PiP) in Swift](https://medium.com/@halilozel1903/how-to-use-picture-in-picture-pip-in-swift-585a59f6cc8c)
 
-## Resources
+## Resources 📚
 
 - [Swift Video Tutorial](https://www.youtube.com/watch?v=PNCtRRusgDA) <br>
 
@@ -40,11 +40,11 @@ Applications that support PiP playback present a small button in the lower-right
 
 <br> <br>
 
-## License
+## License ℹ️
 ```
 MIT License
 
-Copyright (c) 2020 Halil Özel
+Copyright (c) 2021 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
