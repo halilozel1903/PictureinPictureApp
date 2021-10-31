@@ -11,7 +11,6 @@ Picture in Picture (PiP) playback was introduced in iOS 9. It lets iPad users pl
 Applications that support PiP playback present a small button in the lower-right corner of the video playback window. Tapping this button minimizes the video display to a small floating window, letting the user perform other activities in the primary application or even in another application.<br> <br>
 
 
-
 ## Application Demo 📱
 
 ![Screenshot](picture1.png)
@@ -24,7 +23,7 @@ Applications that support PiP playback present a small button in the lower-right
 
 ![Screenshot](pic5.png)
 
-<br> <br>
+<br> 
 
 ## Blog Post
 
@@ -38,7 +37,7 @@ Applications that support PiP playback present a small button in the lower-right
 
 - [Adopting Picture in Picture](https://developer.apple.com/documentation/avkit/adopting_picture_in_picture_in_a_custom_player)
 
-<br> <br>
+<br> 
 
 ## License ℹ️
 ```
