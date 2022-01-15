@@ -23,9 +23,8 @@ Applications that support PiP playback present a small button in the lower-right
 
 ![Screenshot](pic5.png)
 
-<br> 
 
-## Blog Post
+## Blog Post 📋
 
 - [How to use Picture in Picture (PiP) in Swift](https://medium.com/@halilozel1903/how-to-use-picture-in-picture-pip-in-swift-585a59f6cc8c)
 
@@ -37,13 +36,12 @@ Applications that support PiP playback present a small button in the lower-right
 
 - [Adopting Picture in Picture](https://developer.apple.com/documentation/avkit/adopting_picture_in_picture_in_a_custom_player)
 
-<br> 
 
 ## License ℹ️
 ```
 MIT License
 
-Copyright (c) 2021 Halil OZEL
+Copyright (c) 2022 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
