@@ -1,8 +1,8 @@
 # Picture in Picture App 📸
-Adopting Picture in Picture (PiP) in a Custom Player - Swift Language
+
+A controller that responds to user-initiated Picture in Picture playback of video in a floating, resizable window.
 
 ![Screenshot](ipad.jpg)
-
 
 ## Working with Picture in Picture (iOS) 👨🏻‍💻
 
