@@ -36,6 +36,12 @@ Applications that support PiP playback present a small button in the lower-right
 
 - [Adopting Picture in Picture](https://developer.apple.com/documentation/avkit/adopting_picture_in_picture_in_a_custom_player)
 
+## Donation 💸
+
+If this project help 💁 you reduce time to develop, you can give me a cup of coffee. ☕
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel)
+
 
 ## License ℹ️
 ```
