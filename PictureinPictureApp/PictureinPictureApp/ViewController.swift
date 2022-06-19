@@ -13,14 +13,12 @@ import AVKit
 class ViewController: UIViewController, AVPlayerViewControllerDelegate {
     
     var playerController : AVPlayerViewController!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
-        
         super.didReceiveMemoryWarning()
     }
     
@@ -29,7 +27,7 @@ class ViewController: UIViewController, AVPlayerViewControllerDelegate {
         let path = Bundle.main.path(forResource: "Apple", ofType: "mp4")!
         
         let url = NSURL(fileURLWithPath: path)
-
+        
         let player = AVPlayer(url: url as URL)
         
         playerController = AVPlayerViewController()
@@ -45,23 +43,20 @@ class ViewController: UIViewController, AVPlayerViewControllerDelegate {
         playerController.player?.play()
         
         self.present(playerController, animated: true, completion : nil)
-        
-        
     }
     
     @objc func didfinishPlaying(note : NSNotification)  {
-        
         playerController.dismiss(animated: true, completion: nil)
         let alertView = UIAlertController(title: "Finished", message: "Video finished", preferredStyle: .alert)
         alertView.addAction(UIAlertAction(title: "Okey", style: .default, handler: nil))
         self.present(alertView, animated: true, completion: nil)
     }
     
-
+    
     /*
-    func playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart(_ playerViewController: AVPlayerViewController) -> Bool {
+     func playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart(_ playerViewController: AVPlayerViewController) -> Bool {
      
-    }*/
+     }*/
     
     func playerViewController(_ playerViewController: AVPlayerViewController, restoreUserInterfaceForPictureInPictureStopWithCompletionHandler completionHandler: @escaping (Bool) -> Void) {
         
@@ -74,8 +69,5 @@ class ViewController: UIViewController, AVPlayerViewControllerDelegate {
         }
         
     }
-    
-
-    
 }
 
