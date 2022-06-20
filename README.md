@@ -40,7 +40,7 @@ Applications that support PiP playback present a small button in the lower-right
 
 If this project help 💁 you reduce time to develop, you can give me a cup of coffee. ☕
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
 
 
 ## License ℹ️
