@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52B1ADD922B124CC0094DF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1ADD822B124CC0094DF38 /* AppDelegate.swift */; };
 		52B1ADDB22B124CC0094DF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1ADDA22B124CC0094DF38 /* ViewController.swift */; };
+		52B1ADF122B130000094DF38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1ADF022B130000094DF38 /* SceneDelegate.swift */; };
 		52B1ADDE22B124CC0094DF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B1ADDC22B124CC0094DF38 /* Main.storyboard */; };
 		52B1ADE122B124CC0094DF38 /* PictureinPictureApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52B1ADDF22B124CC0094DF38 /* PictureinPictureApp.xcdatamodeld */; };
 		52B1ADE322B124D00094DF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B1ADE222B124D00094DF38 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		52B1ADD522B124CC0094DF38 /* PictureinPictureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureinPictureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B1ADD822B124CC0094DF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B1ADDA22B124CC0094DF38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B1ADF022B130000094DF38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52B1ADDD22B124CC0094DF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52B1ADE022B124CC0094DF38 /* PictureinPictureApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PictureinPictureApp.xcdatamodel; sourceTree = "<group>"; };
 		52B1ADE222B124D00094DF38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				52B1ADEE22B12E490094DF38 /* Apple.mp4 */,
 				52B1ADD822B124CC0094DF38 /* AppDelegate.swift */,
+				52B1ADF022B130000094DF38 /* SceneDelegate.swift */,
 				52B1ADDA22B124CC0094DF38 /* ViewController.swift */,
 				52B1ADDC22B124CC0094DF38 /* Main.storyboard */,
 				52B1ADE222B124D00094DF38 /* Assets.xcassets */,
@@ -96,8 +99,8 @@
 		52B1ADCD22B124CC0094DF38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
 				ORGANIZATIONNAME = halilozel;
 				TargetAttributes = {
 					52B1ADD422B124CC0094DF38 = {
@@ -111,7 +114,7 @@
 				};
 			};
 			buildConfigurationList = 52B1ADD022B124CC0094DF38 /* Build configuration list for PBXProject "PictureinPictureApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 16.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -149,6 +152,7 @@
 			files = (
 				52B1ADE122B124CC0094DF38 /* PictureinPictureApp.xcdatamodeld in Sources */,
 				52B1ADDB22B124CC0094DF38 /* ViewController.swift in Sources */,
+				52B1ADF122B130000094DF38 /* SceneDelegate.swift in Sources */,
 				52B1ADD922B124CC0094DF38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -281,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -304,7 +308,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.atlas.PictureinPictureApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -322,7 +328,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.atlas.PictureinPictureApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
